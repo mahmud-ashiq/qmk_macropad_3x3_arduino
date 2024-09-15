@@ -1,0 +1,53 @@
+{
+    "manufacturer": "mahmud-ashiq",
+    "keyboard_name": "macropad_3x3",
+    "maintainer": "mahmud-ashiq",
+    "url": "https://github.com/mahmud-ashiq/qmk_macropad_3x3_arduino",   
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "bootloader": "caterina",
+    "processor": "atmega32u4",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": false,
+        "command": true,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "encoder": true
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "D1", "pin_b": "D0"}
+        ]
+    },   
+    "matrix_pins": {
+        "cols": ["D4", "C6", "D7"],
+        "rows": ["E6", "B4", "B5"]
+    },
+    "layouts": {
+        "LAYOUT_3x3": {
+            "layout": [
+                //row_1
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+
+                //row_2 
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+
+                //row_3
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2}
+            ]
+
+        }
+    }
+}
