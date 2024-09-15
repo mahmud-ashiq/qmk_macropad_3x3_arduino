@@ -10,3 +10,4 @@ This is a 3X3 macropad with a rotary encoder. Each key has different functionali
     4. 360 Rotary Encoder
     5. LEDs
 
+![plot](./Pictures/Components.png)
