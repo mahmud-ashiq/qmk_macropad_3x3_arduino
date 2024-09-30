@@ -22,7 +22,7 @@
     },
     "encoder": {
         "rotary": [
-            {"pin_a": "D1", "pin_b": "D0"}
+            {"pin_a": "D0", "pin_b": "D1", "resolution": 4}
         ]
     },   
     "matrix_pins": {
